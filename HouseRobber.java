@@ -1,5 +1,6 @@
 class HouseRobber {
     //T = O(n)
+    
     //space = O(1)
     public int rob(int[] nums) {
         if (nums.length ==1) return nums[0];

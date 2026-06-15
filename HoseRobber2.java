@@ -1,4 +1,5 @@
 public class HoseRobber2 {
+    
     public int robber(int[] nums) {
         int[][] dp = new int[nums.length + 1][2];
         dp[0][1] = 0;
